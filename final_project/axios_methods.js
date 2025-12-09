@@ -46,9 +46,9 @@ function getBooksByTitle(title) {
 }
 
 // Example usage:
-// getAllBooks();
-// getBookByISBN(1);
-// getBooksByAuthor('Jane Austen');
-// getBooksByTitle('Pride and Prejudice');
+getAllBooks();
+getBookByISBN(1);
+getBooksByAuthor('Jane Austen');
+getBooksByTitle('Pride and Prejudice');
 
 module.exports = { getAllBooks, getBookByISBN, getBooksByAuthor, getBooksByTitle };
